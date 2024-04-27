@@ -1,1 +1,2 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
