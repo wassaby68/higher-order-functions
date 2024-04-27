@@ -1,3 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-console.log(typeof typeof 1);
-const merge = [...new Set([...a, ...b])];
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const channelName = getChannelName(channel);
+const isArray = (arr) => Array.isArray(arr);
