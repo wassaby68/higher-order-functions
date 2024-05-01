@@ -1,1 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
+const arrayContains = (arr, element) => arr.includes(element);
