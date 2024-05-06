@@ -1,3 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const isEmptyArray = arr => !arr.length;
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
