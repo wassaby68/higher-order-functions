@@ -1,2 +1,2 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const isArray = (arr) => Array.isArray(arr);
+console.log(+"1" +  "1" + "2");
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
