@@ -1,1 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
