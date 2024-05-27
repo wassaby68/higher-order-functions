@@ -1,2 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const channelName = getChannelName(channel);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
