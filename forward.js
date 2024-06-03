@@ -1,1 +1,1 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
