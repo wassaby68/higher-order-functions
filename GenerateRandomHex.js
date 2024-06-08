@@ -1,2 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const fullName = name || 'buddy';
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
