@@ -1,3 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const randomBoolean = () => Math.random() >= 0.5;
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const removeDuplicates = (arr) => [...new Set(arr)];
