@@ -1,1 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const arrayContains = (arr, element) => arr.includes(element);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
