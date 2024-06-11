@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const uniqueArr = (arr) => [...new Set(arr)];
+console.log(1 +  "2" + "2");
