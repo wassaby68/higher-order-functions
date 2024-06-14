@@ -1,2 +1,3 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log(1 +  "2" + "2");
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const uniqueArray = arr => [...new Set(arr)];
