@@ -1,2 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-console.log( "A" - "B" + "2");
+const allResults = await Promise.all(items.map(async (item) => {}));
+const channelName = getChannelName(channel);
